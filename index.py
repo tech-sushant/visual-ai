@@ -67,5 +67,5 @@ response = message.content[0].text
 
 # Print the response and save it to a file
 print("Response:", response)
-with open("comparison.txt", "w") as f:
+with open("comparison.md", "w") as f:
     f.write(response)
